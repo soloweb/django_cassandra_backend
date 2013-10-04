@@ -19,7 +19,7 @@ setup(
         'django_cassandra',
         'django_cassandra.db',
     ],
-    install_requires=['cassandra', 'thrift', 'django', 'djangotoolbox'],
+    install_requires=['python-cassandra', 'thrift', 'django', 'djangotoolbox'],
     long_description=read('README.txt'),
     classifiers=[
        "Framework :: Django",
